@@ -16,7 +16,8 @@
         "dev"
       ],
       "push": false,
-      "changelog": false,
+      "changelog": true,
+      "conventionalCommits":true,
       "ignoreChanges": [
         "build/",
         "docs/",
