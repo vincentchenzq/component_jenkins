@@ -4,7 +4,7 @@
   "command": {
     "publish": {
       "message": "ci(publish): lerna publish %s",
-      "registry": "npm publish --registry http://vincentchen.cn:8083"
+      "registry": "http://vincentchen.cn:8083"
     },
     "bootstrap": {
       "hoist": true
