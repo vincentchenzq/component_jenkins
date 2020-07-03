@@ -1,6 +1,6 @@
 {
   "name": "@vincent/utils",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "工具类",
   "author": "chenzhiq <chenzhiq@authine.com>",
   "homepage": "https://github.com/vincentchenzq/component_jenkins/tree/master/packages/utils#readme",
@@ -27,6 +27,6 @@
     "url": "https://github.com/vincentchenzq/component_jenkins/issues"
   },
   "devDependencies": {
-    "@vincent/components": "^0.3.0"
+    "@vincent/components": "^0.3.1"
   }
 }

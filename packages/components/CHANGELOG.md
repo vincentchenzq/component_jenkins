@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/vincentchenzq/component_jenkins/compare/v0.3.0...v0.3.1) (2020-07-03)
+
+
+### Bug Fixes
+
+* 去除空格 ([919595f](https://github.com/vincentchenzq/component_jenkins/commit/919595f5a62fef0c109b3e1c7ac04f02c537ba71))
+
+
+
+
+
 # [0.3.0](https://github.com/vincentchenzq/component_jenkins/compare/v0.2.12...v0.3.0) (2020-07-03)
 
 
