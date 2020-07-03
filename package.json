@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "bootstrap": "npx lerna bootstrap",
-    "commit": "git-cz",
+    "commit": "git cz",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-lerna-changelog"
+      "path": "cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "./node_modules/cz-customizable"
     }
   },
   "repository": {
@@ -43,7 +46,7 @@
     "@commitlint/config-conventional": "^9.0.1",
     "@lerna/project": "^3.21.0",
     "commitizen": "^4.1.2",
-    "cz-lerna-changelog": "^2.0.3",
+    "cz-customizable": "^6.2.0",
     "husky": "^4.2.5",
     "lerna": "^3.18.1",
     "lint-staged": "^10.2.11",
