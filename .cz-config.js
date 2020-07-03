@@ -4,7 +4,7 @@ module.exports = {
   // type 的枚举
   types: [
     { value: 'feat', name: 'feat: 一个新功能' }, // (A new feature)
-    { value: 'improvement', name: 'improvement: 对当前功能的改进' }, // (An improvement to a current feature)
+    // { value: 'improvement', name: 'improvement: 对当前功能的改进' }, // (An improvement to a current feature)
     { value: 'fix', name: 'fix: 一个bug修复' }, // (A bug fix)
     { value: 'docs', name: 'docs: 仅是文档修改' }, // (Documentation only changes)
     {
