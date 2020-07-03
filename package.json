@@ -12,6 +12,9 @@
     "url": "git+https://github.com/vincentchenzq/component_jenkins.git"
   },
   "keywords": [],
+  "publishConfig":{
+    "registry":"http://vincentchen.cn:8083/"
+  },
   "author": "vincentchenzq@gmail.com",
   "license": "ISC",
   "bugs": {
