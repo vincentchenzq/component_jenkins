@@ -2,7 +2,7 @@
   "name": "@vincent/utils",
   "version": "0.3.1",
   "description": "工具类",
-  "author": "chenzhiq <chenzhiq@authine.com>",
+  "author": "vincentchenzq@gmail.com",
   "homepage": "https://github.com/vincentchenzq/component_jenkins/tree/master/packages/utils#readme",
   "license": "ISC",
   "main": "lib/utils.js",
