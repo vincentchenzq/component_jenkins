@@ -15,8 +15,6 @@
         "master",
         "dev"
       ],
-      "push": false,
-      "changelog": true,
       "conventionalCommits":true,
       "ignoreChanges": [
         "build/",
