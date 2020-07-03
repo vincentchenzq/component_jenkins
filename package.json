@@ -1,0 +1,24 @@
+{
+  "name": "component_jenkins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap":"npx lerna bootstrap",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincentchenzq/component_jenkins.git"
+  },
+  "keywords": [],
+  "author": "vincentchenzq@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vincentchenzq/component_jenkins/issues"
+  },
+  "homepage": "https://github.com/vincentchenzq/component_jenkins#readme",
+  "devDependencies": {
+    "lerna": "^3.18.1"
+  }
+}
