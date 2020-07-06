@@ -2,6 +2,7 @@
   "name": "component_jenkins",
   "version": "1.0.0",
   "description": "",
+  "private":"true",
   "main": "index.js",
   "scripts": {
     "bootstrap": "npx lerna bootstrap",

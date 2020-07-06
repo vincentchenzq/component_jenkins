@@ -35,27 +35,17 @@ reSignTag() {
   git tag -a $lastTagName -m "$lastTagName"
 }
 
-if [ "$gitlabTargetBranch" == "master" ]; then
-  if hasLernaChanged; then
-    echo "lerna 有变动，继续执行"
-    npm run ci:release
-    errorExit
-    npm run changelog
-    git add CHANGELOG.md
-    git commit --amend --no-edit
-    reSignTag
-    git push origin master
-    git push origin --tags
-  fi
-  docBuildOut doc h3yun-shared-doc
-elif [ "$gitlabTargetBranch" == "dev" ]; then
-  if hasLernaChanged; then
-    echo "lerna 有变动，继续执行"
-    npm run ci:dev
-    errorExit
-    git push  origin dev
-  fi
-  recentMergeLogFindDocsFeat doc-alpha h3yun-shared-doc-alpha
+
+if hasLernaChanged; then
+  echo "lerna 有变动，继续执行"
+  npm run ci:release
+  errorExit
+  npm run changelog
+  git add CHANGELOG.md
+  git commit --amend --no-edit
+  reSignTag
+  git push origin master
+  git push origin --tags
 fi
 
 # 普通构建任务也会推送到构建
