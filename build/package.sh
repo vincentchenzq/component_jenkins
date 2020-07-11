@@ -35,7 +35,6 @@ reSignTag() {
 if hasLernaChanged; then
   echo "lerna 有变动，继续执行"
   npm run ci:release
-  errorExit
   npm run changelog
   git add CHANGELOG.md
   git commit --amend --no-edit
