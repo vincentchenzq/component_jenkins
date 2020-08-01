@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.3](https://github.com/vincentchenzq/component_jenkins/compare/v0.4.2...v0.4.3) (2020-08-01)
+
+
+### Features
+
+* 修改参数 ([dee1725](https://github.com/vincentchenzq/component_jenkins/commit/dee1725c92911f8a25bcf32c1ccf0e0308f74552))
+* 增加参数 ([225171a](https://github.com/vincentchenzq/component_jenkins/commit/225171a8ebf379bb5e9a7d7de39c8bc366bf6114))
+
+
+
+
+
 ## [0.4.2](https://github.com/vincentchenzq/component_jenkins/compare/v0.4.1...v0.4.2) (2020-08-01)
 
 
