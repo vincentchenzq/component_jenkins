@@ -44,4 +44,4 @@ if hasLernaChanged; then
 fi
 
 # 普通构建任务也会推送到构建
-echo "执行 Jenkins构建概要推送钉钉任务"
+echo "构建成功"
