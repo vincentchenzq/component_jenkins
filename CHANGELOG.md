@@ -1,13 +1,17 @@
-# Change Log
+# [1.0.0](https://github.com/vincentchenzq/component_jenkins/compare/v0.4.2...v1.0.0) (2020-08-01)
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+
+## [0.4.2](https://github.com/vincentchenzq/component_jenkins/compare/v0.4.1...v0.4.2) (2020-08-01)
+
+
+### Features
+
+* 增加sum函数 ([6dff973](https://github.com/vincentchenzq/component_jenkins/commit/6dff973f44371a01c70216a9cc918102683ac243))
+
+
 
 ## [0.4.1](https://github.com/vincentchenzq/component_jenkins/compare/v0.4.0...v0.4.1) (2020-07-11)
-
-**Note:** Version bump only for package component_jenkins
-
-
 
 
 
@@ -27,16 +31,12 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-
-
 ## [0.3.1](https://github.com/vincentchenzq/component_jenkins/compare/v0.3.0...v0.3.1) (2020-07-03)
 
 
 ### Bug Fixes
 
 * 去除空格 ([919595f](https://github.com/vincentchenzq/component_jenkins/commit/919595f5a62fef0c109b3e1c7ac04f02c537ba71))
-
-
 
 
 
@@ -50,5 +50,26 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* 增加空格 ([1d6f69f](https://github.com/vincentchenzq/component_jenkins/commit/1d6f69f22b7e94024ae4ded9824dca4012b95a61))
 * 增加新的模块 ([22259d4](https://github.com/vincentchenzq/component_jenkins/commit/22259d46716a201b49fffd5f77c86fd3ba5c3f7e))
+* 增加空格 ([1d6f69f](https://github.com/vincentchenzq/component_jenkins/commit/1d6f69f22b7e94024ae4ded9824dca4012b95a61))
+
+
+
+## [0.2.12](https://github.com/vincentchenzq/component_jenkins/compare/v0.2.11...v0.2.12) (2020-07-03)
+
+
+### Features
+
+* **build:** 增加提交门禁 ([638fefc](https://github.com/vincentchenzq/component_jenkins/commit/638fefc72409865167c894afdf221dcfcbc7322d))
+* 增加注解 ([3bd3d77](https://github.com/vincentchenzq/component_jenkins/commit/3bd3d77b2a5a90a7a79c377a140571172afbc6ea))
+
+
+
+## [0.2.11](https://github.com/vincentchenzq/component_jenkins/compare/v0.2.10...v0.2.11) (2020-07-03)
+
+
+
+## 0.2.10 (2020-07-03)
+
+
+
